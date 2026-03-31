@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #7b7c82;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #f0f0f0;
+        }
+        h2 {
+            color: #333;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .info {
+                flex-direction: column;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Estudiante de Desarrollo de Software</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+            <img class="profile-pic"
+                src="student_photo.jpg"
+                alt="Foto de perfil">
+        </div>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <div class="info">
+            <div>
+                <h3>Nombre</h3>
+                <p>Jeffrey Castellanos</p>
+            </div>
+            <div>
+                <h3>Correo Electrónico</h3>
+                <p>jaredspillari@gmail.com</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>+502 3834-6662</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+    
+        <div>
+            <h3>Analista de Cartera Bilingüe</h3>
+            <p>Capgemini | Oct 2024 – Presente</p>
+            <ul>
+                <li>Gestión y cobro de cuentas asignadas dentro de la cartera de clientes.</li>
+                <li>Mantenimiento de relaciones sólidas con clientes, asegurando una comunicación efectiva en inglés y
+                    español.</li>
+                <li>Resolución de consultas y problemas relacionados con facturación y pagos.</li>
+                <li>Optimización del proceso de cobros para mejorar la eficiencia financiera de la empresa.</li>
+            </ul>
+        </div>
+    
+        <div>
+            <h3>Representante de Atención al Cliente</h3>
+            <p>ACT | Abr. 2024 – Presente</p>
+            <ul>
+                <li>Verificación de tarjetas de crédito y gestión de incidencias relacionadas.</li>
+                <li>Atención de casos de tarjetas perdidas o robadas.</li>
+                <li>Apoyo en la reemisión de tarjetas y resolución de consultas de clientes.</li>
+                <li>Atención al cliente enfocada en rapidez, precisión y profesionalismo.</li>
+            </ul>
+        </div>
+    
+        <div>
+            <h3>Representante de Atención al Cliente</h3>
+            <p>[24]7.ai | Jul. 2022 – Mar. 2024</p>
+            <ul>
+                <li>Detección y verificación de transacciones sospechosas de fraude en tarjetas de crédito.</li>
+                <li>Asistencia a clientes en procesos de reclamo por cargos incorrectos.</li>
+                <li>Protección de cuentas mediante medidas preventivas como bloqueos temporales.</li>
+                <li>Orientación al cliente para garantizar su seguridad financiera.</li>
+            </ul>
+        </div>
+    
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+    
+        <div>
+            <h3>Licenciatura en Desarrollo de Software</h3>
+            <p>Universidad Brigham Young (BYU-Idaho) | Enero 2023 – Presente</p>
+            <p>
+                Actualmente cursando estudios enfocados en desarrollo de software, adquiriendo conocimientos en
+                programación,
+                estructuras de datos y desarrollo de aplicaciones. En constante aprendizaje y mejora continua, explorando
+                nuevas
+                tecnologías y fortaleciendo habilidades técnicas para el crecimiento profesional.
+            </p>
+        </div>
+    
+        <div>
+            <h3>Técnico en Desarrollo Web</h3>
+            <p>Universidad Galileo, Guatemala | 2026 – 2027 (En curso)</p>
+            <p>
+                Formación orientada al desarrollo web moderno, incluyendo HTML, CSS, JavaScript y tecnologías relacionadas.
+                Enfocado en la creación de sitios web dinámicos, responsivos y buenas prácticas de desarrollo frontend.
+            </p>
+        </div>
+    
+    </section>
+</body>
+
+</html>
